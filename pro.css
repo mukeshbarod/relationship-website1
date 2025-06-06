@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.image-section{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.main-image{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wish-section{
+    text-align: center;
+    background: #ffdee9;
+    padding: 18px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(255, 0, 123, 0.2);
+}
+
+.wish-section h1{
+    color: #d63384;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.memory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.memory img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.memory-text{
+    margin-top: 8px;
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.voice-note{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.voice-note h2{
+    margin-bottom: 10px;
+    color: #b0006d;
+    font-size: 1.3em;
+}
+
+audio{
+    width: 100%;
+    max-width: 300px;
+}
+
+@media(max-width:600px){
+    .wish-section h1{
+        font-size: 1.3em;
+    }
+
+    .memory-text{
+        font-size: 0.95em;
+    }
+
+    .voice-note h2{
+        font-size: 1.1em;
+    }
+}
